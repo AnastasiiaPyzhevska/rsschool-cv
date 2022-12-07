@@ -1,3 +1,5 @@
+![my Foto](myFoto.jpg)
+
 ## Pyzhevska Anastasiia
 
 #### Contacts:
