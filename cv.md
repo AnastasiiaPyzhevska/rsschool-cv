@@ -34,7 +34,7 @@ function multiply (a, b) {
 
 #### Languages
 1. Ukrainian (Native).
-2. Russian (Native)
+2. Russian (Speaking)
 3. English (Intermediate - B1)
 
 
