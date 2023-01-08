@@ -1,0 +1,600 @@
+@import "./base.scss";
+@import "./constants.scss";
+@import "./effects.scss";
+
+
+.wrapper {
+    text-align: center;
+    align-items: center;
+
+}
+
+.header{
+    height: 134px;
+    background-color: $backgroundpage;
+    background-color: #EDF2EC;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    
+    &_logo{
+        display: flex;
+        align-items: center;
+        width: 79.2px;
+        height: 21px;
+
+
+    &_text {
+        list-style: none;
+        align-items: center;
+    }
+
+   &_img {
+        height: 20px;
+        width: 20px;
+   }
+    }
+}
+
+.header_nav_link, .footer_github, .footer_rsschool {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    font-family: $font_header1;
+}
+.header_nav_link{
+    font-size: 16px;
+}
+
+
+.span_link {
+    color: $textcolor1;
+}
+
+.span_text {
+    color: $textcolor3;
+}
+
+.span_text2 {
+    color: $textcolor1;
+}
+
+.navbar{
+    display: flex;
+    width: 1220px;
+    height: 50px;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.header_nav, .footer_nav {
+    &_list {
+        list-style: none;
+        display: flex;
+        height: 50px;
+        align-items: center;
+        width: 452px;
+        justify-content: space-between;
+    };
+}
+
+
+.welcome {
+    height: 532px;
+    background-color: $backgroundpage;
+    font-family: $font_header2;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    font-family: $font_header2;
+    text-align: left;
+   
+
+    &_section {
+        width: 1222px; 
+        display: flex;
+        margin: 0px auto;
+        justify-content:space-between;
+        height: 407px; 
+        align-items: center;
+
+    }
+
+    &_block {
+        width: 549px;
+        height: 340px;
+        justify-content:space-between;
+        display: flex;
+        flex-direction: column;
+
+        &_header {
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 50px;
+            color: $textcolor2;
+            margin: 0px;
+        }
+
+        &_text {
+            font-weight: 400;
+            font-size: 20px;
+            color: $textcolor4;
+            line-height: 35px;
+            width: 525px;
+        }
+
+
+        &_button {
+            width: 158px;
+            height: 44px;
+            border: 2px solid $textcolor1;
+            border-radius: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: $font_header2;
+            background-color: $backgroundpage;
+        }
+    }
+}
+
+.welcome_section img {
+    width: 473px;
+    height: 407.4px;
+}
+
+.about {
+    height: 666px;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+
+    &_section {
+        width: 1222px; 
+        margin: 0px auto;
+        display: flex;
+        height: 479px;
+        justify-content: space-between;
+        align-items: center;
+     }
+
+     &_block {
+        height: 350px;
+        text-align: left;
+        width: 605px; 
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        &_header {
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 52px;
+            width: 463px;
+            color: $textcolor3;
+        }
+
+        &_text {
+            height: 208px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: $textcolor4;
+            font-style: normal;
+        }
+     }
+
+
+}
+
+.service {
+    height: 1300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: $backgroundpage;
+   
+
+        &_content {
+            height: 134px;
+        }
+
+        &_section {
+            background-color: $backgroundpage;
+            height: 1300px;
+        }
+
+        &_button {
+            width: 161px;
+            background-color: $backgroundpage;
+            border: 1px solid $textcolor1;
+            height: 50px;
+            font-family: Inika;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: center;
+            color: $textcolor1;
+            border-radius: 5px;
+        }
+
+        &_block {
+            width: 1007px;
+            height: 94px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 40px;
+            padding-bottom: 88px;
+
+            &_header {
+                font-family: $font_header1;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 52px;
+                color: $textcolor3;
+                width: 306px;
+                height: 94px;
+                text-align: left;
+            }
+
+            &_text{
+                height: 100px;
+            }
+
+            &_button {
+                display: flex;
+                width: 559px;
+                height: 50px;
+                justify-content: space-between;
+                text-align: center;
+                padding-top: 29px;
+            }
+
+            &_content {
+                width: 1222px; 
+                margin: 0px auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                height: 955px;
+                align-content: space-between;
+                
+            }
+
+            &_item {
+                display: flex;
+                flex-direction: column;
+                width: 330px;
+                height: 450px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 0px 0px 20px 20px;
+
+                &_header{
+                    font-family: 'Inter';
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 20px;
+                    color: $textcolor1;
+                    margin: 0px;
+                    padding-top: 10px;
+
+                }
+
+                &_text {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    padding-top: 15px;
+                    color: $textcolor2;
+                }
+
+            }
+            
+        }
+}
+ 
+
+.prices {
+        height: 560px;
+
+    &_section {
+        width: 1222px;
+        height: 405px;
+        margin: 0px auto;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &_button{
+        border-radius: 20px;
+        width: 250px;
+        height: 50px;
+        text-align: left;
+        font-family: $font_header2;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #000000;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: $backgroundpage;
+
+
+        &_arrow{
+            width: 16px;
+            height: 16px;
+            align-items: center;
+            padding-right: 40px;
+
+
+        }
+
+    }
+
+    &_contact_button {
+        width: 162px;
+        border: 1px solid $textcolor1;
+        background-color: white;
+        height: 50px;
+        font-family: Inika;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        color: $textcolor1;
+        border-radius: 5px;
+        margin-top: 38px;
+
+    }
+
+    &_block {
+        width: 332px;
+        height: 391px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &_items{
+            height: 282px ;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid $backgroundpage;
+            border-radius: 20px;
+        }
+
+        &_header{
+            font-family: $font_header2;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            color: #000000;
+            text-align: left;
+        }
+
+        &_button {
+            height: 214px;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0px auto;
+            align-items: center;
+            align-content: center;
+        }
+
+        &_img{
+            width: 152px;
+            height: 175px;
+            margin-top: 39px;
+        }
+
+        &_content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        &_text{
+            padding-left: 40px;
+        }
+
+        &_contact {
+        width: 452px;
+        height: 191px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+
+            &_header {
+                font-family: $font_header2;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                text-align: right;
+                color: #000000;
+            }
+
+        
+        }
+    }
+ 
+}
+
+.prices_button_arrow::after {
+    background: url(../img/arrow\ down.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    width: 16px;
+    height: 16px;
+    background-color: $buttonclick1;
+    content: '';
+    position: absolute;
+
+}
+
+.contacts {
+    height: 550px;
+    background-color: $backgroundpage;
+
+    &_section{
+        width: 1222px;
+        margin: 0px auto;
+        display: flex;
+        height: 550px;
+
+    }
+
+    &_hover{
+        width: 450px;
+        height: 50px;
+        z-index: 1;
+    }
+
+    &_select_arrow {
+        background: $buttonclick2;
+        width: 450px;
+        margin-top: 148px;
+        height: 50px;
+        position: relative;
+
+    }
+
+    &_select{
+        background: $buttonclick2;
+        font-family: $font_header2;
+        padding-left: 20px;
+        position: relative;
+        width: 450px;
+        font-weight: 400;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        color: $textcolor2;
+        height: 50px;
+        line-height: 40px;
+    }
+
+    &_block{
+
+        &_img {
+            width: 400px;
+            height: 497px;
+            align-self: flex-end;
+        }
+
+        &_header {
+            font-family: $font_header1;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 52px;
+            color: $textcolor3;
+            margin-top: 60px;
+            padding-left: 113px;
+            padding-right: 64px;
+
+        }
+    }
+    
+    
+}
+
+.contacts_select_arrow::after {
+    background: url(../img/arrow_down2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 34px;
+    border-radius: 16px;
+    width: 16px;
+    height: 16px;
+    background-color: $buttonclick3;
+    content: '';
+    position: absolute;
+    z-index: 1;
+    pointer-events:none;
+    align-items: center;
+    top: 17px;
+
+}
+
+.footer {
+    height: 130px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    &_content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+        font-size: 20px;
+
+        &_github{
+            width: 182px;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &_social_link{
+            width: 188px;
+            height: 50px;
+            
+        }
+    }
+
+    &_block {
+        width: 1222px;
+        height: 50px;
+        margin: 0px auto;
+    }
+
+    &_rsschool{
+        font-family: $font_header2;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 50px;
+        color: #000000;
+    }
+
+}
+
+.favicon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.favicon img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.contacts_select_arrow:active:after {
+    background: url(../img/arrow\ \(3\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 34px;
+    border-radius: 16px;
+    width: 16px;
+    height: 16px;
+    background-color: $buttonclick3;
+    content: '';
+    position: absolute;
+    z-index: 1;
+    pointer-events:none;
+    align-items: center;
+    top: 17px;
+}
+

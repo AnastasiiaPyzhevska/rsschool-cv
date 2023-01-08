@@ -1,0 +1,20 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch ./plants/style/style.scss ./plants/style/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiiaPyzhevska/rsschool-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiiaPyzhevska/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/AnastasiiaPyzhevska/rsschool-cv#readme"
+}

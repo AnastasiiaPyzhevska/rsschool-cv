@@ -1,0 +1,15 @@
+.prices_button_arrow:hover:after{
+    cursor: url("../img/cursor.svg"), auto;
+}
+
+.contacts_select:focus {
+    background-color: $buttonclick4;
+}
+
+.header_nav_link:hover {
+    color: $textcolor1;
+}
+
+.header_nav_link:focus {
+    color: $textcolor1;
+}
