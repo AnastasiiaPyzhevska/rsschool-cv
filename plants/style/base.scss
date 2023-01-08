@@ -1,0 +1,55 @@
+@import "./constants.scss";
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 1440px;
+    margin: 0px auto;
+}
+
+p {
+    margin: 0px;
+    font-family: $font_header2;
+}
+
+h2, h3, h4 {
+    margin: 0px;
+    font-family: $font_header1;
+}
+
+.content {
+    border: 1px solid black;
+    margin: 0px auto;
+    width: 1222px;
+}
+
+select {
+    appearance: none;
+    border: none;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+ }
+
+ a:hover {
+    color: $textcolor1;
+ }
+
+button:hover {
+    cursor: pointer;
+    background-color: $textcolor1;
+    color: white;
+    cursor: url("../img/cursor.svg"), auto;
+    transition: 1s;
+}
+
+option {
+    margin-left: 20px;
+    width: 380px;
+    height: 35px;
+}
