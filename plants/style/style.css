@@ -301,8 +301,9 @@ option {
   flex-direction: column;
   width: 330px;
   height: 450px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 0px 20px 20px;
+  box-shadow: 1px 1px 4px rgb(0 0 0 / 25%);
+  border-radius: 20px 20px 20px 20px;
+  margin: 0px auto;
 }
 .service_block_item_header {
   font-family: "Inter";
