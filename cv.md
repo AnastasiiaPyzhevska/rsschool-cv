@@ -20,7 +20,8 @@
 * SoloLearn online course - HTML, CSS, SQL.
 
 #### Experience
-*The Link to GitLab repository from the educational projects:* https://gitlab.com/AnastasiiaPyzhevska
+*The Link to GitLab with repository from the educational projects:* https://gitlab.com/AnastasiiaPyzhevska/sw
+*The Link to GitHub with repository from the educational projects:* https://github.com/AnastasiiaPyzhevska
 
 #### Сode
 *Guessing Game* 
