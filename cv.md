@@ -1,4 +1,5 @@
 ## Pyzhevska Anastasiia
+![my_Foto](myFoto.jpg )
 
 #### Contacts:
 * Ukraine, Dnipro
