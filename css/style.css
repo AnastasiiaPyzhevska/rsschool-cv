@@ -1,0 +1,214 @@
+.section_profile_foto {
+    width: 300px;
+    height: 200px; 
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 740px;
+}
+  
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: 0px auto;
+    background-color: rgb(250, 247, 243);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height:100%;
+}
+
+span {
+    background-color: rgba(234, 198, 167, 0.845);
+}
+
+.header {
+    height: 30px;
+    background-color: antiquewhite;
+}
+
+.main, .header {
+    padding-right: 20px;
+}
+
+.section_right {
+    display: inline-block;
+    width: 65%;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    margin-right: 20px;
+}
+
+.section_left {
+    height: auto;
+    width: 30%;
+    height: max-content;
+    top: 10px;
+    position: absolute;
+    background: linear-gradient( rgb(92, 126, 85),   rgba(237, 224, 212, 0.845) );
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.section_contacts_block, .section_skills_block, .section_languages_block, .section_education_block {
+    list-style: none;
+}
+
+ul{
+   padding: 0px;
+   margin: 0px;
+   height: 30px;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.nav-item{
+    padding-left: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgba(4, 84, 4, 0.833);
+    text-decoration: underline;
+}
+
+.nav-item a:hover {
+    background-color: rgba(234, 198, 167, 0.845);
+}
+
+.section_profile_img {
+    width: 250px;
+    height: 350px;
+}
+
+#profile {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color:  rgba(21, 22, 21, 0.881);
+    border-bottom: 2px dashed rgba(4, 84, 4, 0.833);
+}
+
+#contacts {
+    padding: 7px;
+    font-size: 15px;
+    color: rgba(21, 22, 21, 1);
+    border-bottom: 2px dashed rgba(4, 84, 4, 0.833);
+    height: 130px;
+}
+
+#skills{
+    padding: 7px;
+    font-size: 15px;
+    color: rgba(21, 22, 21, 1);
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+#about_me, #education, #code_example, #languages, #project {
+    display: inline-block;
+    width: 100%;
+    height: max-content;
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 5px;
+    text-align: justify;
+    color: rgba(21, 22, 21, 1);
+}
+
+#about_me, #education, #code_example, #languages {
+    border-bottom: 2px dashed rgba(4, 84, 4, 0.833);
+}
+
+.section_education_block {
+    height: max-content;
+}
+
+.project p {
+    margin: 0px;
+}
+
+.languages_container {
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#code_example p {
+    margin: 0px;
+    font-style: italic;
+    font-size: 14px;
+    display: inline-block;
+}
+
+pre {
+    background-color: rgba(234, 198, 167, 0.845);
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+
+.section_profile_name, .section_profile_profession {
+    margin: 0px;
+}
+
+.section_profile_profession {
+    background-color:  antiquewhite;
+}
+
+h2 {
+    color: rgba(4, 84, 4, 0.833);
+    margin: 0px;
+    text-align: center;
+}
+
+.section_about_me_summary, .section_education_item {
+    line-height: 1.5;
+}
+
+.education a {
+    color: rgba(4, 84, 4, 0.833);
+}
+
+.languages p, .about_me p {
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer {
+    bottom: 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+    color: rgba(4, 84, 4, 0.833);
+}
+
+.footer p {
+    padding: 0px 50px;
+}
+
+.footer a:hover {
+    background-color: rgba(234, 198, 167, 0.845);
+}
